@@ -1,12 +1,13 @@
+import keras
 import streamlit as st
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pickle
 
 #load the model
-model = tf.keras.models.load_model('ann_model.h5')
+model = keras.models.load_model('ann_model.h5')
 
 #load all the pickle files
 with open('scaler.pkl', 'rb') as f:
