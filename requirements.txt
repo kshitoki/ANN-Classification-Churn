@@ -1,9 +1,9 @@
-tensorflow=2.15.0
+tensorflow==2.15.0
 keras
-h5py
 numpy
 pandas
 scikit-learn
 tensorboard
 matplotlib
 streamlit
+scikeras
